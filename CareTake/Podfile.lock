@@ -1,0 +1,26 @@
+PODS:
+  - FontAwesomeKit.Swift (1.0.0)
+  - Kingfisher (4.8.0)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+
+DEPENDENCIES:
+  - FontAwesomeKit.Swift
+  - Kingfisher (~> 4.0)
+  - MagicalRecord
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FontAwesomeKit.Swift
+    - Kingfisher
+    - MagicalRecord
+
+SPEC CHECKSUMS:
+  FontAwesomeKit.Swift: 39f3c77b644cfb39ad0b83243e8018093c97ff37
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+
+PODFILE CHECKSUM: 30fb6b41d77cd00555ccbb59c5677884c6a45ac3
+
+COCOAPODS: 1.5.3
