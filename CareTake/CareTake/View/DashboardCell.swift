@@ -20,19 +20,13 @@ class RecordCell: UICollectionViewCell {
     var date = UILabel()
     let line = UIView()
     let painLabel = UILabel()
-    var pain = PainView(pain: 8, frame: CGRect(x: 20, y: 100, width: 100, height: 100))
-    var fatigue = UILabel()
+    let fatigueLabel = UILabel()
+    var pain = LargeDisplay(pain: 8, frame: CGRect(x: 20, y: 100, width: 100, height: 100))
+    var fatigue = LargeDisplay(pain: 4, frame: CGRect(x: (ScreenSize.SCREEN_WIDTH - 20) - 120, y: 100, width: 100, height: 100))
+    let medicationLabel = UILabel()
+    var medication = UILabel()
     var foodEaten = UILabel()
-    let symptomsCV: UICollectionView = {
-        let layout = UICollectionViewFlowLayout()
-        let frame = CGRect(x: 0, y: ScreenSize.SCREEN_HEIGHT / 5.5, width: ScreenSize.SCREEN_WIDTH , height: 108)
-        layout.scrollDirection = .horizontal
-        let cv = UICollectionView(frame: frame, collectionViewLayout: layout)
-        cv.backgroundColor = UIColor(red:0.91, green:0.91, blue:0.91, alpha:1.0)
-        cv.isSpringLoaded = true
-        cv.showsHorizontalScrollIndicator = false
-        return cv
-    }()
+    
     
     
     required init?(coder aDecoder: NSCoder) {
@@ -44,8 +38,10 @@ class RecordCell: UICollectionViewCell {
         addSubview(line)
         addSubview(painLabel)
         addSubview(pain)
+        addSubview(fatigueLabel)
         addSubview(fatigue)
-        addSubview(foodEaten)
+        addSubview(medicationLabel)
+        addSubview(medication)
         
         date.translatesAutoresizingMaskIntoConstraints = false
         date.topAnchor.constraint(equalTo: topAnchor, constant: 20).isActive = true
@@ -59,8 +55,18 @@ class RecordCell: UICollectionViewCell {
         painLabel.topAnchor.constraint(equalTo: line.bottomAnchor, constant: 10).isActive = true
         painLabel.centerXAnchor.constraint(equalTo: pain.centerXAnchor).isActive = true
         
+        fatigueLabel.translatesAutoresizingMaskIntoConstraints = false
+        fatigueLabel.topAnchor.constraint(equalTo: line.bottomAnchor, constant: 10).isActive = true
+        fatigueLabel.centerXAnchor.constraint(equalTo: fatigue.centerXAnchor).isActive = true
         
+        medicationLabel.translatesAutoresizingMaskIntoConstraints = false
+        medicationLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
+        medicationLabel.topAnchor.constraint(equalTo: pain.bottomAnchor, constant: 25).isActive = true
         
+        medication.translatesAutoresizingMaskIntoConstraints = false
+        medication.topAnchor.constraint(equalTo: pain.bottomAnchor, constant: 45).isActive = true
+        medication.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
+    
         standardStyling()
     }
     
@@ -73,6 +79,19 @@ class RecordCell: UICollectionViewCell {
         painLabel.font = UIFont(name: "HelveticaNeue-bold", size: fontSize.large.rawValue)
         painLabel.textColor = .white
         
+        fatigueLabel.text = "Pain"
+        fatigueLabel.font = UIFont(name: "HelveticaNeue-bold", size: fontSize.large.rawValue)
+        fatigueLabel.textColor = .white
+        
         line.backgroundColor = UIColor(hex: "0E253D")
+        
+        medicationLabel.font = UIFont(name: "HelveticaNeue-bold", size: fontSize.xXXLarge.rawValue)
+        medicationLabel.textColor = .white
+        medicationLabel.text = "Medication taken today"
+        
+        medication.textColor = .darkGray
+        medication.font = UIFont(name: "HelveticaNeue", size: fontSize.xXLarge.rawValue)
+        medication.numberOfLines = 3
+        medication.text = "Promethazene \nCodiene \nXanax"
     }
 }

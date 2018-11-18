@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class PainView: UIView {
+class LargeDisplay: UIView {
     var painCount: Int?
     var painLabel = UILabel()
     
