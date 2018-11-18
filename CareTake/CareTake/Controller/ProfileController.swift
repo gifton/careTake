@@ -12,5 +12,7 @@ import UIKit
 class ProfileController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        view = ProfileView(frame: .zero)
+        self.navigationController?.isNavigationBarHidden = true
     }
 }

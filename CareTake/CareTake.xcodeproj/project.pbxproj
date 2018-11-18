@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB529CFAC90AE3EC26E2693D /* Pods_CareTake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4EED0D0D32341068BD1613 /* Pods_CareTake.framework */; };
 		D700747F21A0C1A60036AD73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700747E21A0C1A60036AD73 /* AppDelegate.swift */; };
-		D700748121A0C1A60036AD73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700748021A0C1A60036AD73 /* ViewController.swift */; };
+		D700748121A0C1A60036AD73 /* TABCONTROLLER.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700748021A0C1A60036AD73 /* TABCONTROLLER.swift */; };
 		D700748421A0C1A60036AD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D700748221A0C1A60036AD73 /* Main.storyboard */; };
 		D700748621A0C1A60036AD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D700748521A0C1A60036AD73 /* Assets.xcassets */; };
 		D700748921A0C1A60036AD73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D700748721A0C1A60036AD73 /* LaunchScreen.storyboard */; };
@@ -18,13 +18,19 @@
 		D700749721A0CC090036AD73 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700749621A0CC090036AD73 /* User.swift */; };
 		D700749921A102800036AD73 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700749821A102800036AD73 /* Dashboard.swift */; };
 		D700749C21A102DB0036AD73 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700749B21A102DB0036AD73 /* ProfileController.swift */; };
+		D700749F21A1033D0036AD73 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700749E21A1033D0036AD73 /* ProfileView.swift */; };
+		D70074A121A103940036AD73 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074A021A103940036AD73 /* DashboardView.swift */; };
+		D70074A321A116130036AD73 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074A221A116130036AD73 /* DashboardCell.swift */; };
+		D70074A721A1165A0036AD73 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074A621A1165A0036AD73 /* UIColor.swift */; };
+		D70074A921A116ED0036AD73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074A821A116ED0036AD73 /* Constants.swift */; };
+		D70074AB21A1171B0036AD73 /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074AA21A1171B0036AD73 /* Styling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE49E75973213D1CB874850C /* Pods-CareTake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareTake/Pods-CareTake.debug.xcconfig"; sourceTree = "<group>"; };
 		D700747B21A0C1A60036AD73 /* CareTake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareTake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D700747E21A0C1A60036AD73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D700748021A0C1A60036AD73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D700748021A0C1A60036AD73 /* TABCONTROLLER.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TABCONTROLLER.swift; sourceTree = "<group>"; };
 		D700748321A0C1A60036AD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D700748521A0C1A60036AD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D700748821A0C1A60036AD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +41,12 @@
 		D700749621A0CC090036AD73 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D700749821A102800036AD73 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		D700749B21A102DB0036AD73 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		D700749E21A1033D0036AD73 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D70074A021A103940036AD73 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		D70074A221A116130036AD73 /* DashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		D70074A621A1165A0036AD73 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D70074A821A116ED0036AD73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D70074AA21A1171B0036AD73 /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
 		E68A9374E6230EBBB783A193 /* Pods-CareTake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTake.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareTake/Pods-CareTake.release.xcconfig"; sourceTree = "<group>"; };
 		FF4EED0D0D32341068BD1613 /* Pods_CareTake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareTake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,15 +94,18 @@
 		D700747D21A0C1A60036AD73 /* CareTake */ = {
 			isa = PBXGroup;
 			children = (
+				D70074A521A116480036AD73 /* Extensions */,
+				D70074A421A116400036AD73 /* Helpers */,
 				D700749321A0C6BD0036AD73 /* CareTake.entitlements */,
+				D700749D21A103310036AD73 /* View */,
+				D700749A21A102CF0036AD73 /* Controller */,
 				D700749021A0C37B0036AD73 /* Model */,
 				D700747E21A0C1A60036AD73 /* AppDelegate.swift */,
-				D700748021A0C1A60036AD73 /* ViewController.swift */,
+				D700748021A0C1A60036AD73 /* TABCONTROLLER.swift */,
 				D700748221A0C1A60036AD73 /* Main.storyboard */,
 				D700748521A0C1A60036AD73 /* Assets.xcassets */,
 				D700748721A0C1A60036AD73 /* LaunchScreen.storyboard */,
 				D700748A21A0C1A60036AD73 /* Info.plist */,
-				D700749A21A102CF0036AD73 /* Controller */,
 			);
 			path = CareTake;
 			sourceTree = "<group>";
@@ -111,6 +126,33 @@
 				D700749B21A102DB0036AD73 /* ProfileController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D700749D21A103310036AD73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D70074A221A116130036AD73 /* DashboardCell.swift */,
+				D700749E21A1033D0036AD73 /* ProfileView.swift */,
+				D70074A021A103940036AD73 /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D70074A421A116400036AD73 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D70074A821A116ED0036AD73 /* Constants.swift */,
+				D70074AA21A1171B0036AD73 /* Styling.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D70074A521A116480036AD73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D70074A621A1165A0036AD73 /* UIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F0A772EA101FA292269FE130 /* Frameworks */ = {
@@ -252,10 +294,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D700749721A0CC090036AD73 /* User.swift in Sources */,
-				D700748121A0C1A60036AD73 /* ViewController.swift in Sources */,
+				D70074A921A116ED0036AD73 /* Constants.swift in Sources */,
+				D70074A321A116130036AD73 /* DashboardCell.swift in Sources */,
+				D70074A121A103940036AD73 /* DashboardView.swift in Sources */,
+				D700748121A0C1A60036AD73 /* TABCONTROLLER.swift in Sources */,
 				D700747F21A0C1A60036AD73 /* AppDelegate.swift in Sources */,
+				D70074AB21A1171B0036AD73 /* Styling.swift in Sources */,
+				D70074A721A1165A0036AD73 /* UIColor.swift in Sources */,
 				D700749921A102800036AD73 /* Dashboard.swift in Sources */,
 				D700749221A0C3930036AD73 /* Record.swift in Sources */,
+				D700749F21A1033D0036AD73 /* ProfileView.swift in Sources */,
 				D700749C21A102DB0036AD73 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL7TCK5Y58;
 				INFOPLIST_FILE = CareTake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL7TCK5Y58;
 				INFOPLIST_FILE = CareTake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
