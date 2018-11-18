@@ -24,6 +24,7 @@
 		D70074A721A1165A0036AD73 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074A621A1165A0036AD73 /* UIColor.swift */; };
 		D70074A921A116ED0036AD73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074A821A116ED0036AD73 /* Constants.swift */; };
 		D70074AB21A1171B0036AD73 /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074AA21A1171B0036AD73 /* Styling.swift */; };
+		D70074AD21A1C5BF0036AD73 /* PainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70074AC21A1C5BF0036AD73 /* PainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		D70074A621A1165A0036AD73 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		D70074A821A116ED0036AD73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D70074AA21A1171B0036AD73 /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
+		D70074AC21A1C5BF0036AD73 /* PainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainView.swift; sourceTree = "<group>"; };
 		E68A9374E6230EBBB783A193 /* Pods-CareTake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTake.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareTake/Pods-CareTake.release.xcconfig"; sourceTree = "<group>"; };
 		FF4EED0D0D32341068BD1613 /* Pods_CareTake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareTake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 				D70074A221A116130036AD73 /* DashboardCell.swift */,
 				D700749E21A1033D0036AD73 /* ProfileView.swift */,
 				D70074A021A103940036AD73 /* DashboardView.swift */,
+				D70074AC21A1C5BF0036AD73 /* PainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				D700748121A0C1A60036AD73 /* TABCONTROLLER.swift in Sources */,
 				D700747F21A0C1A60036AD73 /* AppDelegate.swift in Sources */,
 				D70074AB21A1171B0036AD73 /* Styling.swift in Sources */,
+				D70074AD21A1C5BF0036AD73 /* PainView.swift in Sources */,
 				D70074A721A1165A0036AD73 /* UIColor.swift in Sources */,
 				D700749921A102800036AD73 /* Dashboard.swift in Sources */,
 				D700749221A0C3930036AD73 /* Record.swift in Sources */,
