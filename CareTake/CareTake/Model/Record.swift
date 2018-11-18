@@ -10,22 +10,23 @@ import Foundation
 import UIKit
 
 struct Record {
-    let painRating: Int
+    let pain_tolerance: Int
     let symptoms: [String]
+    var fatigue: Int = 0
     var foodEaten: [String] = []
     var ouncesOfWater: Int = 0
     var minutesExcersized: Int = 0
     var irregularBowelMovement: Bool = false
     var bowelMovementDescription: String = ""
     
-    init(symptoms: [String], painRating: Int) {
+    init(symptoms: [String], pain_tolerance: Int) {
         self.symptoms = symptoms
-        self.painRating = painRating
+        self.pain_tolerance = pain_tolerance
     }
-    init (symptoms: [String], painRating: Int, foodEaten: [String],
+    init (symptoms: [String], pain_tolerance: Int, foodEaten: [String],
           ouncesOfWater: Int, minutesExcersized: Int, irregularBowelMovement: Bool,
           bowelMovementDescription: String) {
-        self.init(symptoms: symptoms, painRating: painRating)
+        self.init(symptoms: symptoms, pain_tolerance: pain_tolerance)
         self.foodEaten = foodEaten
         self.ouncesOfWater = ouncesOfWater
         self.minutesExcersized = minutesExcersized
@@ -33,4 +34,3 @@ struct Record {
         self.bowelMovementDescription = bowelMovementDescription
     }
 }
-

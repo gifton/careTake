@@ -15,6 +15,9 @@
 		D700748921A0C1A60036AD73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D700748721A0C1A60036AD73 /* LaunchScreen.storyboard */; };
 		D700749221A0C3930036AD73 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700749121A0C3930036AD73 /* Record.swift */; };
 		D700749521A0C6BD0036AD73 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D700749421A0C6BD0036AD73 /* HealthKit.framework */; };
+		D700749721A0CC090036AD73 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700749621A0CC090036AD73 /* User.swift */; };
+		D700749921A102800036AD73 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700749821A102800036AD73 /* Dashboard.swift */; };
+		D700749C21A102DB0036AD73 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700749B21A102DB0036AD73 /* ProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		D700749121A0C3930036AD73 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		D700749321A0C6BD0036AD73 /* CareTake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CareTake.entitlements; sourceTree = "<group>"; };
 		D700749421A0C6BD0036AD73 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		D700749621A0CC090036AD73 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D700749821A102800036AD73 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		D700749B21A102DB0036AD73 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		E68A9374E6230EBBB783A193 /* Pods-CareTake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareTake.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareTake/Pods-CareTake.release.xcconfig"; sourceTree = "<group>"; };
 		FF4EED0D0D32341068BD1613 /* Pods_CareTake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CareTake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -84,6 +90,7 @@
 				D700748521A0C1A60036AD73 /* Assets.xcassets */,
 				D700748721A0C1A60036AD73 /* LaunchScreen.storyboard */,
 				D700748A21A0C1A60036AD73 /* Info.plist */,
+				D700749A21A102CF0036AD73 /* Controller */,
 			);
 			path = CareTake;
 			sourceTree = "<group>";
@@ -92,8 +99,18 @@
 			isa = PBXGroup;
 			children = (
 				D700749121A0C3930036AD73 /* Record.swift */,
+				D700749621A0CC090036AD73 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D700749A21A102CF0036AD73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D700749821A102800036AD73 /* Dashboard.swift */,
+				D700749B21A102DB0036AD73 /* ProfileController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		F0A772EA101FA292269FE130 /* Frameworks */ = {
@@ -234,9 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D700749721A0CC090036AD73 /* User.swift in Sources */,
 				D700748121A0C1A60036AD73 /* ViewController.swift in Sources */,
 				D700747F21A0C1A60036AD73 /* AppDelegate.swift in Sources */,
+				D700749921A102800036AD73 /* Dashboard.swift in Sources */,
 				D700749221A0C3930036AD73 /* Record.swift in Sources */,
+				D700749C21A102DB0036AD73 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
