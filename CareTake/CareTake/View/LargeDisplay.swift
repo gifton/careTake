@@ -20,6 +20,7 @@ class LargeDisplay: UIView {
         self.init(frame: frame)
         self.painCount = pain
         buildColor(pain: pain)
+        self.layer.cornerRadius = 10
     }
     
     func buildColor(pain: Int) {

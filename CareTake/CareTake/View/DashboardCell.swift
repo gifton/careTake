@@ -26,7 +26,13 @@ class RecordCell: UICollectionViewCell {
     let medicationLabel = UILabel()
     var medication = UILabel()
     var foodEaten = UILabel()
-    
+    var symptoms: UITableView = {
+        let tv = UITableView()
+        tv.allowsSelection = false
+        tv.backgroundColor = .clear
+        
+        return tv
+    }()
     
     
     required init?(coder aDecoder: NSCoder) {
@@ -79,7 +85,7 @@ class RecordCell: UICollectionViewCell {
         painLabel.font = UIFont(name: "HelveticaNeue-bold", size: fontSize.large.rawValue)
         painLabel.textColor = .white
         
-        fatigueLabel.text = "Pain"
+        fatigueLabel.text = "Fatigue"
         fatigueLabel.font = UIFont(name: "HelveticaNeue-bold", size: fontSize.large.rawValue)
         fatigueLabel.textColor = .white
         
@@ -92,6 +98,6 @@ class RecordCell: UICollectionViewCell {
         medication.textColor = .darkGray
         medication.font = UIFont(name: "HelveticaNeue", size: fontSize.xLarge.rawValue)
         medication.numberOfLines = 3
-        medication.text = "Promethazene \nCodiene \nXanax"
+        medication.text = "Promethazene\nCodiene\nXanax"
     }
 }
