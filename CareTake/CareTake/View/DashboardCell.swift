@@ -85,12 +85,12 @@ class RecordCell: UICollectionViewCell {
         
         line.backgroundColor = UIColor(hex: "0E253D")
         
-        medicationLabel.font = UIFont(name: "HelveticaNeue-bold", size: fontSize.xXXLarge.rawValue)
+        medicationLabel.font = UIFont(name: "HelveticaNeue-bold", size: fontSize.xLarge.rawValue)
         medicationLabel.textColor = .white
         medicationLabel.text = "Medication taken today"
         
         medication.textColor = .darkGray
-        medication.font = UIFont(name: "HelveticaNeue", size: fontSize.xXLarge.rawValue)
+        medication.font = UIFont(name: "HelveticaNeue", size: fontSize.xLarge.rawValue)
         medication.numberOfLines = 3
         medication.text = "Promethazene \nCodiene \nXanax"
     }
